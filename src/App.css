@@ -1,0 +1,130 @@
+header{
+    font-size: 1.2em;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    background-color: cornflowerblue;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 2;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+    color:white;
+}
+
+
+.addBtn{
+    position: fixed;
+    top: 2%;
+    right: 8%;
+    height: 50px;
+    width: 130px;
+    z-index: 3;
+}
+
+.filterRate{
+    position: fixed;
+    z-index: 4;
+    top: 4%;
+    right: 20%;
+}
+
+.stars{
+    font-size: 1.3em;
+}
+
+
+.title { 
+    color: white; 
+    font-size: 30px; 
+    margin: 20px 100px 10px 30px; 
+    text-shadow: 0 1px 1px rgb(255, 255, 255); 
+}
+
+.cardTitle{
+    height: 70px;
+}
+
+.list{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.searchBar{
+    color: #6b6b6b !important;
+    width: 300px !important;
+    border-radius: 15px !important;
+    font-size: 0.7em !important;
+    padding: 1%;
+    margin: 1%;
+    height: 30px;
+}
+
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.movieCard{
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+
+.desc{
+    height: 50px;
+    overflow: hidden;
+}
+
+.movieTitle{
+    text-align: center;
+    font-variant: small-caps ;
+    font-size: 30pt;
+    letter-spacing: 0.1em;
+    color:red;
+}
+
+.movieContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    margin-bottom: 5%;
+}
+
+.trailer{
+    text-decoration: none;
+    color: grey;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+
+footer{
+    font-weight: 200;
+    font-size: 0.8em;
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+
